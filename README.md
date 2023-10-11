@@ -16,13 +16,8 @@
 <p align="left">
   <a href="https://github.com/Zwiicker?tab=repositories&q=&type=&language=html&sort="><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/></a>
    <a href="https://github.com/Zwiicker?tab=repositories&q=&type=&language=css&sort="><img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/></a>
-      <a href="https://github.com/Zwiicker?tab=repositories&q=&type=&language=typescript&sort="><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript"/</a> 
-    </a>
-  <a href="https://github.com/Zwiicker?tab=repositories&q=&type=&language=html&sort="><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/></a>
   <a href="https://github.com/">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github"/>
-<br /><br />
-
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github"/><br /><br />
 </p>
 
 <h2>List of challenges</h2>
