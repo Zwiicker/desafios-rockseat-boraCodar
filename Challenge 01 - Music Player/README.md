@@ -2,7 +2,7 @@
 
 <br /><br />
 
-:rocket:	Application of a Music Player developed in HTML and CSS . :rocket:	<br /><br />
+:rocket:	Application of a Music Player developed in HTML and CSS .See the Project on figma [here](https://www.figma.com/community/file/1195050524500542670) :rocket:	<br /><br />
 
 </div> 
 
