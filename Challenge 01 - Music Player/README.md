@@ -1,8 +1,12 @@
+## View project running 
+  
+ <br /><br /> [![Deploy with Vercel](https://vercel.com/button)]()<br /><br />
+ 
 # #BoraCodar
 
 <br /><br />
 
-:rocket:	Application of a Music Player developed in HTML and CSS .See the Project on figma [here](https://www.figma.com/community/file/1195050524500542670) :rocket:	<br /><br />
+:rocket:	Application of a Music Player developed in HTML and CSS. See the Project on Figma [here](https://www.figma.com/community/file/1195050524500542670) :rocket:	<br /><br />
 
 </div> 
 
@@ -16,6 +20,5 @@
 
 </p>
 
-## View project running 
-  
- <br /><br /> [![Deploy with Vercel](https://vercel.com/button)]()<br /><br />
+
+<img src="desafio01.png" />
