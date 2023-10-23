@@ -24,7 +24,7 @@
 <br>
 <ul>
     <li><a href="https://desafios-rockseat-bora-codar-pcunfjs9l-zwiicker.vercel.app/">Challenge 01 - Music Player</a></li>
-    <li><a href="">Challenge 02 - Product Card</a></li>
+    <li><a href="https://desafios-rockseat-bora-codar-02-git-main-zwiicker.vercel.app">Challenge 02 - Product Card</a></li>
     <li><a href="">Challenge 03 - Buttons and Cursors</a></li>
     <li><a href="">Challenge 04 - Personalized Chat</a></li>
     <li><a href="">Challenge 05 - Calculator</a></li>
