@@ -1,10 +1,62 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Poppins';
+body{
+  display: flex;
+  height: 100vh;
+  color: #FFF;
+}
+
+h1{
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Roboto', 'sans-serif';
+}
+
+table{
+  border-spacing: 0;
+  width: 100%;
+  font-family: 'Roboto', 'sans-serif';
+  border: 3px solid #1C162C;
+}
+
+
+tr{
+  text-align: center;
+}
+
+aside{
+  flex-basis: 25%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 90px;
+  padding-left: 20px;
+  background-color: #130F1E;
+}
+
+/* BOTÕES */
+button{
+    border-radius: 2rem;
+    height: 35px;
+    padding: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+    color: #FFF;
+    border: none;
 }

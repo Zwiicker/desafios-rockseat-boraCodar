@@ -1,0 +1,121 @@
+table thead{
+    background-color: #1C162C;
+    line-height: 50px;
+    font-size: 12px;
+  }
+  
+table tbody{
+    line-height: 60px;
+    font-size: 14px;
+  }
+  
+table tbody tr td:first-child{
+    background-color: #1C162C;
+    font-size: 12px;
+    width: 12%;
+  }
+
+.container{
+    flex-grow: 1;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+    background-color: #0B0911;
+}
+
+
+.testArea{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 35px;
+}
+
+
+
+
+.loadingImg{
+    width: 2rem;
+    height: 2rem;
+    animation: spin 1000ms infinite linear;
+}
+
+.movableImg{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.primary{
+    background-color: #8257E5;
+}
+.secondary{
+    background-color: #3C3748;
+}
+.tertiary{
+    background-color: transparent;
+}
+:focus{
+    border: 1px solid rgb(156, 156, 156);
+}
+
+
+.default{
+    cursor: pointer;
+}
+
+.hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.hover:hover{
+    opacity:0.5;
+}
+
+.focus{
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.focus:focus{
+    border: 2px solid lightgray;
+}
+
+.disabled{
+    opacity: 0.60;
+    cursor: not-allowed;
+}
+
+.loading{
+    cursor: progress;
+}
+
+.movable{
+    cursor: move;
+}
+
+#descriptions{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: large;
+}
+
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@keyframes spin{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+

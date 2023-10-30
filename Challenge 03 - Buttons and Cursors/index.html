@@ -1,4 +1,3 @@
-/* Desafio : - Criar os botões com as suas classes e ao clicar no botão, o botão teste receberá a classe do botão clicado, através da adição de propriedade pelo JavaScript.*/
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,12 +11,187 @@
   <link rel="stylesheet" href="./assets/css/responsive.css">
   <!-- JAVASCRIPT -->
   <script src="./assets/js/script.js" type="module" defer></script>
+  <script src="https://unpkg.com/phosphor-icons"></script>
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
   <link href="" rel="stylesheet">
   <title> Buttons and Cursors - Henrique de Moura</title>
 </head>
-
-
+<body>
+  <div class="container">
+    <h1>
+      Tipos de botão
+    </h1> 
+    <p>
+      Dentro de um layout, botões servem para destacar ações importantes a serem tomadas.
+      Acompanhe abaixo um exemplo de tipos e propriedades.
+    </p>
+      
+      <table>
+          <thead>
+              <tr>
+                  <th></th>
+                  <th>BOTÃO PRIMÁRIO</th>
+                  <th>BOTÃO SECUNDÁRIO</th>
+                  <th>BOTÃO TERCIÁRIO</th>
+                  <th>CURSOR</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- DEFAULT -->
+              <tr>
+                  <td>DEFAULT</td>
+                  <td>
+                      <button class="primary default">
+                          DEFAULT PRIMARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="secondary default">
+                          DEFAULT SECONDARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="tertiary default">
+                          DEFAULT TERTIARY
+                      </button>
+                  </td>
+                  <td>
+                      <i class="ph-hand-pointing"></i>
+                  </td> <!-- class="default"-->
+              </tr>
+              <!-- HOVER -->
+              <tr>
+                  <td>HOVER</td>
+                  <td>
+                      <button class="primary hover">
+                          HOVER PRIMARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="secondary hover">
+                          HOVER SECONDARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="tertiary hover">
+                          HOVER TERTIARY
+                      </button>
+                  </td>
+                  <td>
+                      <i class="ph-hand-pointing"></i>
+                  </td>
+              </tr>
+              <!-- FOCUS -->
+              <tr>
+                  <td>FOCUS</td>
+                  <td>
+                      <button class="primary focus">
+                      FOCUS PRIMARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="secondary focus">
+                          FOCUS SECONDARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="tertiary focus">
+                          FOCUS TERTIARY
+                      </button>
+                  </td>
+                  <td>
+                      <i class="ph-hand-pointing"></i>
+                  </td>
+              </tr>
+              <!-- DISABLED -->
+              <tr>
+                  <td>DISABLED</td>
+                  <td>
+                      <button class="primary disabled">
+                      DISABLED PRIMARY</button></td>
+                  <td>
+                      <button class="secondary disabled">
+                          DISABLED SECONDARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="tertiary disabled">
+                          DISABLED TERTIARY
+                      </button>
+                  </td>
+                  <td>
+                      <i class="ph-hand-palm"></i>
+                  </td>
+              </tr>
+              <!-- LOADING -->
+              <tr>
+                  <td>LOADING</td>
+                  <td>
+                      <button class="primary loading">
+                          <img class="loadingImg" src="./assets/img/loading.svg" alt="">
+                          LOADING PRIMARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="secondary loading">
+                          <img class="loadingImg" src="./assets/img/loading.svg" alt="">
+                          LOADING SECONDARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="tertiary loading">
+                          <img class="loadingImg" src="./assets/img/loading.svg" alt="">
+                          LOADING TERTIARY
+                      </button>
+                  </td>
+                  <td>
+                      <i class="ph-spinner-gap"></i>
+                  </td>
+              </tr>
+              <!-- MOVABLE -->
+              <tr>
+                  <td>MOVABLE</td>
+                  <td>
+                      <button class="primary movable" draggable="true">
+                          <img class="movableImg" src="./assets/img/movable.svg" alt="">
+                          MOVABLE PRIMARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="secondary movable" draggable="true">
+                          <img class="movableImg" src="./assets/img/movable.svg" alt="">
+                          MOVABLE SECONDARY
+                      </button>
+                  </td>
+                  <td>
+                      <button class="tertiary movable" draggable="true">
+                          <img class="movableImg" src="./assets/img/movable.svg" alt="">
+                          MOVABLE TERTIARY
+                      </button>
+                  </td>
+                  <td>
+                      <i class="ph-arrows-out-cardinal"></i>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  
+  <aside>
+      <div class="testButton">
+          <h1>Teste os botões</h1><br> 
+          <p>Interaja com os botões e observe a mudança de aparência e de cursores.</p>
+      </div>
+      
+      <div id="buttons">
+          <button id="" class="primary">INTERAJA COMIGO</button>
+          <button id="" class="secondary">INTERAJA COMIGO</button>
+          <button id="" class="tertiary">INTERAJA COMIGO</button>
+      </div>
+      <div id="descriptions"></div>
+  </aside>
+</body>
 </html>
