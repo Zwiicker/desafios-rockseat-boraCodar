@@ -47,7 +47,7 @@
     height: 0.75rem;
     display: block;
     background-color: #02b47e;
-    boder-radius: 50%;
+    border-radius: 50%;
   
   }
   
@@ -63,7 +63,7 @@
   
   #messages {
     overflow-y: scroll;
-    padding-button: 2.4rem;
+    padding-bottom: 2.4rem;
     margin-bottom: 100px; /* Adicione um espaçamento inferior aqui */
  
   }
