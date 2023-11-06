@@ -23,10 +23,10 @@
 <h2>List of challenges</h2>
 <br>
 <ul>
-    <li><a href="https://desafios-rockseat-bora-codar-pcunfjs9l-zwiicker.vercel.app/">Challenge 01 - Music Player</a></li>
-    <li><a href="https://desafios-rockseat-bora-codar-02-git-main-zwiicker.vercel.app">Challenge 02 - Product Card</a></li>
-    <li><a href="https://desafios-rockseat-bora-codar-m7vf-git-main-zwiicker.vercel.app/">Challenge 03 - Buttons and Cursors</a></li>
-    <li><a href="">Challenge 04 - Personalized Chat</a></li>
+    <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2001%20-%20Music%20Player/">Challenge 01 - Music Player</a></li>
+    <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2002%20-%20Product%20Card/">Challenge 02 - Product Card</a></li>
+    <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2003%20-%20Buttons%20and%20Cursors/">Challenge 03 - Buttons and Cursors</a></li>
+    <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2004%20-%20Personalized%20Chat/">Challenge 04 - Personalized Chat</a></li>
     <li><a href="">Challenge 05 - Calculator</a></li>
     <li><a href="">Challenge 06 - Boarding pass</a></li>
     <li><a href="">Challenge 07 - Search Page</a></li>
