@@ -1,0 +1,108 @@
+
+
+#app {
+  padding: 54px 32px 32px 32px;
+  width: 360px;
+  height: 570px;
+  border-radius: 50px;
+  background-color: var(--neutral-black);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04),
+    0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26),
+    0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1),
+    inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+    animation: down 1.25s cubic-bezier(.21,.09,.65,.95);
+
+}
+
+#app .containerResult {
+  padding-left: 16px;
+  padding-right: 22px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 26px;
+  
+}
+
+#app .containerResult .calculator {
+  text-align: right;
+  font-size: 1.9rem;
+  color: var(--neutral-gray);
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+#app .containerResult .resultadoCalculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+#app .containerResult .resultadoCalculator .resultado {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  text-align: right;
+  font-size: 4rem;
+  color: var(--neutral-white);
+}
+
+#app .components {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 12px;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+#app .components .button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  box-shadow: var(--box-shadow);
+  color: var(--neutral-white);
+  font-size: 2.5rem;
+  transition:1s all;
+}
+#app .components .button:hover{
+  cursor: pointer;
+  color: var(--neutral-white) !important;
+  background: var(--background-color);
+}
+#app .components .button:first-child{
+  color: var(--primary-purple-color);
+}
+#app .components .secondary {
+  background: var(--linear-purple-color);
+}
+
+#app .components .secondary:last-child {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0.05) 100%),
+    #8046e4;
+}
+
+@keyframes down {
+  from {
+      transform: translateY(-100rem);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+

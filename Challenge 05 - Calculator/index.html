@@ -4,13 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- FAVICON -->
-  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/img/calculator.png" type="image/x-icon">
   <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css" >
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
-  <!-- JAVASCRIPT -->
-  <script src="./assets/js/script.js" type="module" defer></script>
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,5 +16,51 @@
   <link href="" rel="stylesheet">
   <title> Calculator - Henrique de Moura</title>
 </head>
+<body>
+  <main>
+    <section id="app">
+      <div class="containerResult">
+        <input type="text" disabled class="calculator">
+        <div class="resultadoCalculator">
+          <span><img src="assets/img/EqualsTop.svg" alt="Igual"></span>
+          <input type="text" disabled class="resultado">
+        </div>
+      </div>
+      <div class="components">
+        <button class="button" onclick="retroceder()">CE</button>
+        <button class="button" onclick="reiniciar()">C</button>
+
+        <button class="button" onclick="calcular('%')"><img src="assets/img/Percent.svg" alt="Porcentagem"></button>
+
+        <button class="button secondary" onclick="calcular('/')"><img src="assets/img/Divide.svg" alt="Divisão"></button>
+
+        <button class="button numbers" onclick="calcular(7)">7</button>
+        <button class="button numbers" onclick="calcular(8)">8</button>
+        <button class="button numbers" onclick="calcular(9)">9</button>
+
+        <button class="button secondary" onclick="calcular('*')"><img src="assets/img/X.svg" alt="Multiplicação"></button>
+
+        <button class="button numbers" onclick="calcular(4)">4</button>
+        <button class="button numbers" onclick="calcular(5)">5</button>
+        <button class="button numbers" onclick="calcular(6)">6</button>
+
+        <button class="button secondary" onclick="calcular('-')"><img src="assets/img/Minus.svg" alt="Subtração"></button>
+
+        <button class="button numbers" onclick="calcular(1)">1</button>
+        <button class="button numbers" onclick="calcular(2)">2</button>
+        <button class="button numbers" onclick="calcular(3)">3</button>
+
+        <button class="button secondary" onclick="calcular('+')"><img src="assets/img/Plus.svg" alt="Multiplicação"></button>
+
+        <button class="button" onclick="toggleSign()"><img src="assets/img/PlusMinus.svg" alt="Mais ou menos"></button>
+
+        <button class="button numbers" onclick="calcular(0)">0</button>
+        <button class="button" onclick="calcular('.')">,</button>
+        <button class="button secondary" onclick="resultado()"><img src="assets/img/Equals.svg" alt="Igual"></button>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
 </html>
 
