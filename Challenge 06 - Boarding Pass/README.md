@@ -1,6 +1,6 @@
 ## View project running 
   
- <br /><br /> [![Deploy with Vercel](https://vercel.com/button)](https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2005%20-%20Boarding%20Pass/)<br /><br />
+ <br /><br /> [![Deploy with Vercel](https://vercel.com/button)](https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2006%20-%20Boarding%20Pass/)<br /><br />
  
 # #BoraCodar
 
