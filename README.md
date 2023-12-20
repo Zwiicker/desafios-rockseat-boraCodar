@@ -30,7 +30,7 @@ Repository of all Rockseat weekly challenges - #BoraCodar <br /><br />
     <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2004%20-%20Personalized%20Chat/">Challenge 04 - Personalized Chat</a></li>
     <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2005%20-%20Calculator/">Challenge 05 - Calculator</a></li>
     <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2006%20-%20Boarding%20Pass/">Challenge 06 - Boarding pass</a></li>
-    <li><a href="">Challenge 07 - Search Page</a></li>
-    <li><a href="">Challenge 08 - Enterprise Dashboard</a></li>
+    <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2007%20-%20Carnival%20Search%20Website/">Challenge 07 - Carnival Search Website</a></li>
+    <li><a href="https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2008%20-%20Enterprise%20Dashboard/">Challenge 08 - Enterprise Dashboard</a></li>
 </ul>
 <br>
