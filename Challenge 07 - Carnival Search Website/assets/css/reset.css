@@ -1,13 +1,158 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  :root {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+
+body {
+  font-size: 1.6rem;
+}
+
+input,
+select,
+button {
+  font-family: "Roboto", sans-serif;
+  all: unset;
+}
+
+header {
+  min-height: 53.2rem;
+  background-color: #f8f8ff;
+
+  position: relative;
+
+  overflow: hidden;
+
+  display: grid;
+  place-content: center;
+}
+
+header::before {
+  content: "";
+  background-image: url(assets/img/bg-header-top.svg);
+  width: 40.7rem;
+  height: 34.5rem;
+
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+header::after {
+  content: "";
+  background-image: url(assets/img/bg-header-bottom.svg);
+  width: 41.4rem;
+  height: 33rem;
+
+  position: absolute;
+  right: 0;
+  bottom: -1.2rem;
+}
+
+header .content {
+  width: fit-content;
+
+  position: relative;
+  z-index: 1;
+}
+
+header .content .top {
+  text-align: center;
+}
+
+header p {
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  color: #e45858;
+
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: #121214;
+
+  max-width: 64.7rem;
+
+  margin: 1.8rem auto 0;
+}
+
+header h1 span {
+  color: #6246ea;
+}
+
+form {
+  margin-top: 4rem;
+
+  display: flex;
+  padding: 4rem;
+  gap: 2.4rem;
+
+  background: #ffffff;
+  border: 0.1rem solid #eaeaea;
+  border-radius: 1rem;
+}
+
+
+input,select {
+  color: #7c7c8a;
+  min-width: 29rem;
+}
+
+
+select,.select {
+  position: relative;
+}
+
+select {
+  z-index: 1;
+}
+
+
+form button.btn {
+  padding: 1.2rem 3.2rem;
+}
+
+main > .content {
+  max-width: 121.6rem;
+  margin: 10rem auto;
+}
+
+section.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.top .view {
+  display: flex;
+  padding: 0.8rem;
+
+  border: 0.1rem solid #eaeaea;
+  border-radius: 0.6rem;
+}
+
+section.cards {
+  margin-top: 4rem;
+
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+main {
+  padding-inline: 4rem;
+}
+
