@@ -1,5 +1,8 @@
-/* media */
-@media (max-width: 1024px) {
+main {
+    padding-inline: 4rem;
+  }
+  
+  @media (max-width: 1024px) {
     :root {
       font-size: 50%;
     }

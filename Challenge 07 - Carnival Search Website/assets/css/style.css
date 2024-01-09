@@ -1,9 +1,9 @@
-.sr-only {
+  .sr-only {
     position: absolute;
-    width: 0.1rem;
-    height: 0.1rem;
+    width: .1rem;
+    height: .1rem;
     padding: 0;
-    margin: -0.1rem;
+    margin: -.1rem;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
@@ -22,20 +22,20 @@
     text-transform: uppercase;
     cursor: pointer;
   
-    padding: 0.4rem 2.4rem;
-    border-radius: 0.5rem;
+    padding: .4rem 2.4rem;
+    border-radius: .5rem;
   }
   
   .primary {
     background: #6246ea;
   
-    color: #ffffff;
+    color: #fff;
     transition: background 200ms;
   }
   
   .primary:hover {
     background: #523dbe;
-    color: white;
+    color: #fff;
   }
   
   .secondary {
@@ -44,33 +44,47 @@
   
   .secondary:hover {
     background-color: #6246ea;
-    color: white;
+    color: #fff;
   }
-
+  
+  
   .search-field {
     display: flex;
     align-items: center;
     gap: 1.2rem;
   
     background: #f4f4ff;
-    border-radius: 0.5rem;
-    padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+    border-radius: .5rem;
+    padding: 1.2rem .8rem 1.2rem 1.4rem;
   }
 
+  
+ .search-field i {
+    color: #e45858;
+    font-size: 2.4rem;
+  }
+  
+
+  
+  .select i.ph-caret-down-light {
+    position: absolute;
+    right: 1rem;
+    z-index: 0;
+    color: #858793;
+  }
+  
+  
   .card {
-    background: #ffffff;
+    background: #fff;
     border: 0.1rem solid #eaeaea;
     border-radius: 1rem;
-  
     max-width: 38.4rem;
-    
     overflow: hidden;
   }
   
   .card .content {
     display: grid;
     gap: 1.6rem;
-  
     padding: 1.6rem;
   }
   
@@ -88,8 +102,7 @@
     display: flex;
     align-items: center;
     gap: 1.25rem;
-  
-    opacity: 0.75;
+    opacity: .75;
   }
   
   .location i {
@@ -98,15 +111,4 @@
     opacity: 1;
   }
   
-  .search-field i {
-    color: #e45858;
-    font-size: 2.4rem;
-  }
-
-  .select i.ph-caret-down-light {
-    position: absolute;
-    right: 1rem;
-    z-index: 0;
-    color: #858793;
-  }
   

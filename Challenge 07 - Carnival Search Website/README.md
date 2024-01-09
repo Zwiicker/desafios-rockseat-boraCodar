@@ -1,6 +1,6 @@
 ## View project running 
   
- <br /><br /> [![Deploy with Vercel](https://vercel.com/button)](https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2007%20-%20Search%20Page/)<br /><br />
+ <br /><br /> [![Deploy with Vercel](https://vercel.com/button)](https://zwiicker.github.io/desafios-rockseat-boraCodar/Challenge%2007%20-%20Carnival%20Search%20Website/)<br /><br />
  
 # #BoraCodar
 
